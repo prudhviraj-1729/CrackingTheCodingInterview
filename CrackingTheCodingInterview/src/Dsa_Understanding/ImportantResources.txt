@@ -1,0 +1,21 @@
+Cracking the Coding Interview
+Elements of Programming Interviews Java(Optional)
+Grind 75: https://www.techinterviewhandbook.org/grind75
+Fraz SDE Sheet (250): https://leadcoding.in/dsa-sheet/
+Striver's SDE Sheet (200) : https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+
+Patterns:
+Algomonster (Top Patterns in FAANG) : https://algo.monster/problems/stats 
+Grooking the Coding Interview : https://designgurus.org/course/grokking-the-coding-interview
+
+The 3 month study plan - with recommended study resources and practice question links: 
+https://www.techinterviewhandbook.org/coding-interview-study-plan/
+https://www.techinterviewhandbook.org/algorithms/study-cheatsheet
+
+Practice: 
+	LeetCode Sorted (Practice Easy-Medium-Hard) : https://adityarajput.com/leetcode/
+	LeetCode Company Specific (From LinkedIn Posts)
+	GFG Company Specific
+	
+	
+***The Strategy is to learn concepts and practice as many as problems on those topics***
