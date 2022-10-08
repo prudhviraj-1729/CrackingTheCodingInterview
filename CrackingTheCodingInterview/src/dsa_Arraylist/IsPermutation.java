@@ -24,34 +24,35 @@ public class IsPermutation {
 		System.out.println(resNew);
 	}
 	
-	public static boolean checkNew(String one, String two) {
-		if(one.length() != two.length()) {
-			return false;
-		}
-		
-		int[] letters = new int[129];
-		char[] one_array = one.toCharArray();
-		for(char c : one_array) {
-			letters[c]++;
-		}
-		for(int i = 0 ; i < two.length(); i++) {
-			int c = (int) two.charAt(i);
-			letters[c]--;
-			if(letters[c] < 0) {
-				return false;
-			}
-		}
-		return true;
-	}
 	public static boolean check(String one, String two) {
 		if(one.length() != two.length()) {
 			return false;
 		}
 		return sortString(one).equals(sortString(two));
 	}
+	
 	public static String sortString(String word) {
 		char[] char_set = word.toCharArray();
 		java.util.Arrays.sort(char_set);
 		return new String(char_set);
+	}
+	
+	public  static boolean checkNew(String one, String two) {
+		if(one.length() != two.length()) {
+			return false;
+		}
+		int[] letters = new int[129];
+		char[] one_array = one.toCharArray();
+		for(char c : one_array) {
+			letters[c]++;
+		}
+		for(int i = 0 ; i < two.length(); i++) {
+			int c = (int)two.charAt(i);
+			letters[c]--;
+			if(letters[c] < 0) {
+				return false;
+			}
+		}
+		return true;
 	}
 }
