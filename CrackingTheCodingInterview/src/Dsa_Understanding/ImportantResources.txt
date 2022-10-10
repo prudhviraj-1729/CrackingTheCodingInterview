@@ -17,5 +17,6 @@ Practice:
 	LeetCode Company Specific (From LinkedIn Posts)
 	GFG Company Specific
 	
+Another Important Link : https://www.desiqna.in/4963/roadmap-for-maang-data-structures-algorithms-kumar-desi-2022
 	
 ***The Strategy is to learn concepts and practice as many as problems on those topics***
