@@ -13,6 +13,8 @@ The 3 month study plan - with recommended study resources and practice question 
 https://www.techinterviewhandbook.org/coding-interview-study-plan/
 https://www.techinterviewhandbook.org/algorithms/study-cheatsheet
 
+GOOGLE : https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/
+
 Practice: 
 	LeetCode Sorted (Practice Easy-Medium-Hard) : https://adityarajput.com/leetcode/
 	LeetCode Company Specific (From LinkedIn Posts)
