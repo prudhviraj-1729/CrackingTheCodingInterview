@@ -1,0 +1,26 @@
+LinkedList:
+
+A LInked list is a linear data structure used to store collections of Objects. A linked list is made
+up of individual nodes which are present at diff memory locations. They need not be contiguous like
+arrays. These nodes are linked to each other. A node is made of Data and link to next Node.
+
+The first node in a linked list is called the head and the last node is the tail. The link of the tail
+node always points to null, to show that it is the end of the linked list.
+
+Linked list implementation:
+
+The node which says head refers the start of the list and tail refers the end of the list.
+
+public class LinkedList{
+	Node head;
+	Node tail;
+//	Setters and getters
+}
+public class Node{
+	String/int/char data;
+	Node next;					//Object of the node; 
+//  Setters and getters
+}
+
+We have five main Operations: addAtEnd, addAtBeginning, display, find, insert, delete
+Look at the programs to understanding addition/deletion of the elements in linked list
