@@ -17,14 +17,14 @@ public class ShiftingElements {
 		list.addAtEnd("mno");
 		list.addAtEnd("xyz");
 		list.display();
-		shiftRight(list, 2);
+//		shiftLeft(list, 2);
+//		System.out.println();
+//		list.display();
 		System.out.println();
-		list.display();
-		System.out.println();
-		shiftRight(list,1);
+		shiftRight(list,3);
 		list.display();
 	}
-	public static void shiftRight(Linkedlist list, int n) {
+	public static void shiftLeft(Linkedlist list, int n) {
 		int count = 0;
 		Node temp = list.head;
 		while(temp != null) {
@@ -40,8 +40,21 @@ public class ShiftingElements {
 			temp = temp.getNext();
 		}
 	}
-	public static void shiftLeft(Linkedlist list, int n) {
-		
+	public static void shiftRight(Linkedlist list, int n) {
+		int count = 0;
+		Node temp = list.head;
+		while(temp != null) {
+			count++;
+			if(count == n) {
+				Node nodeBefore = temp;
+				Node node = temp.getNext();
+				list.tail.setNext(list.head);
+				list.head  = node;
+				nodeBefore.setNext(null);
+				break;
+			}
+			temp = temp.getNext();
+		}
 	}
 }
 

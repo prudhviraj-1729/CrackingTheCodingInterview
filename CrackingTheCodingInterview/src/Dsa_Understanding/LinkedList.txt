@@ -1,4 +1,4 @@
-LinkedList:
+LinkedList Understanding:
 
 A LInked list is a linear data structure used to store collections of Objects. A linked list is made
 up of individual nodes which are present at diff memory locations. They need not be contiguous like
